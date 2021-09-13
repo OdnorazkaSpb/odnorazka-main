@@ -2,9 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: salmon;
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,107,121,1) 49%, rgba(0,212,255,1) 100%); */
+    /* background-color: salmon; */
+    background: rgb(0,154,154);
     font-family: 'Exo 2', sans-serif;
 }
 ul, li {
@@ -16,19 +15,19 @@ a {
 }
 
 .content-wrapper {
+    width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 .header {
-    padding: 30px;
     border-bottom: 3px solid #000;
-    /* background-color: #7bc3c3; */
+    background-color: #009a9a;
 }
 .nav-bar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .nav-bar_list {
     padding: 0;
@@ -43,7 +42,7 @@ a {
 }
 .nav-bar_list_link {
     display: block;
-    height: 20px;
+    height: 25px;
     width: 120px;
     text-align: center;
 }
@@ -60,7 +59,6 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    border: 6px solid red;
     
 }
 .main-content_block {
@@ -69,21 +67,31 @@ a {
 .about {
     width: 100%;
     height: 500px;
-    border: 1px solid black;
 }
 .stuff {
     width: 100%;
     height: 500px;
-    border: 1px solid black;
 }
 .contacts {
-    width: 100%;
-    height: 500px;
-    border: 1px solid black;
+    width: 24%;
+    height: 350px;
 }
-
+.map {
+    width: 50%;
+    height: 350px;
+}
+.map_block {
+    display: flex;
+    align-items: center;
+}
+.map_api {
+    padding: 15px;
+    border: 1px solid green;
+}
 .footer {
-    
-    /* background-color: #7bc3c3; */
-    /* padding: 30px; */
+    border-top: 1px solid #000;
+    background-color: #009a9a;
+}
+.footer-wrapper {
+    display: flex;
 }
