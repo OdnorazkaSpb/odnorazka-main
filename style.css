@@ -76,6 +76,10 @@ a {
     width: 24%;
     height: 350px;
 }
+.contactsgit-item {
+    border: 1px solid white;
+    padding: 5px;
+}
 .map {
     width: 50%;
     height: 350px;
