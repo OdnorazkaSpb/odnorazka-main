@@ -2,8 +2,10 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,107,121,1) 49%, rgba(0,212,255,1) 100%);
+    background-color: salmon;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,107,121,1) 49%, rgba(0,212,255,1) 100%); */
+    font-family: 'Exo 2', sans-serif;
 }
 ul, li {
     list-style: none;;
@@ -20,7 +22,7 @@ a {
 }
 .header {
     padding: 30px;
-    border-bottom: 5px solid #000;
+    border-bottom: 3px solid #000;
     /* background-color: #7bc3c3; */
 }
 .nav-bar {
@@ -44,7 +46,6 @@ a {
     height: 20px;
     width: 120px;
     text-align: center;
-    margin-top: ;
 }
 .logo-main {
     height: 100px;
@@ -56,12 +57,33 @@ a {
     margin-right: 50px;
 }
 .main-content {
+    display: flex;
+    flex-direction: column;
     flex: 1 1 auto;
+    border: 6px solid red;
     
 }
+.main-content_block {
 
+}
+.about {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+.stuff {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+.contacts {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
 
 .footer {
+    
     /* background-color: #7bc3c3; */
-    padding: 30px;
+    /* padding: 30px; */
 }

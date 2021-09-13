@@ -1,1 +1,1 @@
-# odnorazka-main
+https://github.com/OdnorazkaSpb/odnorazka-main/blob/main/main.html
