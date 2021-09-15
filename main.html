@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <a class="back_to_top" title="Наверх">↑</a>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,27 +14,27 @@
 </head>
 <body>
         <div class="content-wrapper">
-                <header id='' class="header">
+                <header class="header">
                     <nav class="nav-bar">
-                           <img class="logo-main" src="assets/imgs/logo_main.png" alt="">
+                           <img class="logo-main" src="assets/imgs/logo_main.png" alt="Основной логотип">
                             <ul class="nav-bar_list">
-                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="">О нас</a></div></li>
-                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="">Ассортимент</a></div></li>
-                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="">Контакты</a></div></li>
+                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#about">О нас</a></div></li>
+                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#stuff">Ассортимент</a></div></li>
+                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#contacts">Контакты</a></div></li>
                             </ul>
                             <img class="logo_square" src="assets/imgs/logo_square.jpg" alt="">
                     </nav>
                 </header>
-                <main class="main-content">
-                    <div class="main-content_block about">
+                <main class="main-content" >
+                    <div class="main-content_block about" id="about">
 
                     </div>
-                    <div class="main-content_block stuff">
+                    <div class="main-content_block stuff" id="stuff">
 
                     </div>
                 </main>
                 
-                <footer class="footer">
+                <footer class="footer" id="contacts">
                     <div class="footer-wrapper">
                         <div class="map">
                             <div class="map_block">
@@ -43,13 +44,13 @@
                         <div class="contacts">
                             <ul>
                                 <h3>Адрес</h3>
-                                <li class="contacts-item">Думская 5/22</li>
+                                <li class="contacts-item">ул. Думская 5/22</li>
                                 <h3>Телефон</h3>
-                                <li class="contacts-item">+7 (952) 399 45 47</li>
-                                <h3>vk</h3>
-                                <li class="contacts-item">vk.com/odnorazka_spb</li>
-                                <h3>Instagram</h3>
-                                <li class="contacts-item">@odnorazka_spb</li>
+                                <li class="contacts-item"><a href="tel:+79523994547">+7 (952) 399 45 47</a></li>
+                                <h3>Вконтакте</h3>
+                                <li class="contacts-item"><a href="https://vk.com/odnorazka_spb" target="_blank">vk.com/odnorazka_spb</a></li>
+                                <h3 style="background-color: wheat;">Instagram</h3>
+                                <li class="contacts-item"><a href="https://Instagram.com/odnorazka_spb" target="_blank">@odnorazka_spb</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,6 +69,6 @@
 
 
 
-
+<script src="assets/scripts/script.js"></script>
 </body>
 </html>
