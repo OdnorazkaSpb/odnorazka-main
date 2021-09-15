@@ -35,22 +35,43 @@ a {
 }
 .nav-bar_list_item {
     font-size: 20px;
-    padding: 10px;
     margin: 0 75px 0 75px;
-    border: 2px solid white;
-    border-radius: 5px;
 }
+.nav-bar_link-wrapper {
+    height: 50px;
+    width: 150px;
 
+
+}
 .nav-bar_list_link {
-    display: block;
-    height: 25px;
-    width: 120px;
-    text-align: center;
+    border: 2px solid #303030;
+    border-radius: 8px;
+    box-shadow: 0 0 0px 2px #09D7D7;
+    font-weight: bold;
+    color: black;
+    text-shadow: 
+                0.5px 0.5px 0 #09D7D7,
+                -0.5px -0.5px 0 #09D7D7,
+                0.5px -0.5px 0 #09D7D7,
+                -0.5px 0.5px 0 #09D7D7,
+                1px 1px 0 #000;
+                
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: color 0.4s, text-shadow 0.4s, box-shadow 0.4s, border-color 0.4s;
+}
+.nav-bar_list_link:hover {
+    box-shadow: 0 0 0px 2px #000;
+    border-color: #09D7D7;
+
 }
 .logo-main {
     height: 100px;
     width: 280px;
 }
+
 .logo_square {
     width: 100px;
     height: 100px;
