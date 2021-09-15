@@ -36,10 +36,11 @@ a {
 .nav-bar_list_item {
     font-size: 20px;
     padding: 10px;
-    border: 2px solid white;
-    border-radius: 15px;
     margin: 0 75px 0 75px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
+
 .nav-bar_list_link {
     display: block;
     height: 25px;
