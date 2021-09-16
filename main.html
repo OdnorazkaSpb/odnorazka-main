@@ -1,39 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- UP BUTTON -->
-    <a class="back_to_top" title="Наверх">↑</a>  
-<head>
-    <!-- BOOTSTRAP -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
-    <!-- JQUERRY -->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <!-- COOKIE -->
-    <script src="https://yandex.st/jquery/cookie/1.0/jquery.cookie.min.js"></script>
-    <!-- MODAL PLUGIN -->
-    <script src="assets/scripts/verification.js"></script>
-    <link rel="stylesheet" href="assets/style/verification.css">
-    <script>(function($) {
-        $(function() {
-            if (!$.cookie('was')) {
-                $('#info_age_modal').arcticmodal({
-                    closeOnOverlayClick: false,
-                    closeOnEsc: true
-                });
-            }
-            $('.modal_but_no').click(function() {
-                window.location.href = 'http://www.google.ru/';
-                return false
-            });
-            $('.modal_but_yes').click(function() {
-               $.cookie('was', true, {
-               expires: 5, // Сколько хранить куки в днях
-               path: '/'
-            });
-            return false
-            })
-        })
-    })(jQuery)</script>
 
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/verification.css">
     <title>Одноразка</title>
 </head>
 <body>
@@ -65,7 +34,7 @@
                     <nav class="nav-bar">
                            <img class="logo-main" src="assets/imgs/logo_main.png" alt="Основной логотип">
                             <ul class="nav-bar_list">
-                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#stuff">Каталог</a></div></li>
+                                <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#catalog">Каталог</a></div></li>
                                 <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#about">О нас</a></div></li>
                                 <li class="nav-bar_list_item"><div class="nav-bar_link-wrapper"><a class="nav-bar_list_link" href="#contacts">Контакты</a></div></li>
                             </ul>
@@ -73,12 +42,9 @@
                     </nav>
                 </header>
                 <main class="main-content" >
-                    <div class="main-content_block about" id="about">
-
-                    </div>
-                    <div class="main-content_block stuff" id="stuff">
-
-                    </div>
+                    <div class="main-content_block catalog" id="catalog"></div>
+                        
+                    <div class="main-content_block about" id="about"></div>
                 </main>
                 
                 <footer class="footer" id="contacts">
@@ -116,7 +82,21 @@
 
 
 
+
+
+
+
+
+
+        <!-- UP BUTTON -->
+<a class="back_to_top" title="Наверх">↑</a>  
 <!-- Scripts -->
-<script src="assets/scripts/script.js"></script>
+<script src="assets/scripts/upButton.js"></script>
+<!-- JQUERRY -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- COOKIE -->
+<script src="https://yandex.st/jquery/cookie/1.0/jquery.cookie.min.js"></script>
+<!-- MODAL PLUGIN -->
+<!-- <script src="assets/scripts/verification.js"></script> -->
 </body>
 </html>
